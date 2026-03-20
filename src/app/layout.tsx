@@ -7,9 +7,6 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  verification: {
-    google: "IPI3dDFmtL2IFFyyPMEuuBcpTWapn2H0X0XiRKuAMcA",
-  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -17,6 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta name="google-site-verification" content="IPI3dDFmtL2IFFyyPMEuuBcpTWapn2H0X0XiRKuAMcA" />
       </head>
       <body>{children}</body>
     </html>
